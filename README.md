@@ -6,4 +6,4 @@ DDL COMMANDS WITH CONSTRAINTS-(PRIMARY,UNIQUE KEY)-(https://github.com/bhargavmu
 ## EXPERIMENT-3
 DML COMMANDS-INSERT,SELECT-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-3.txt)
 ## EXPERIMENT-4
-DML COMMANDS-UPDATE,DELETE-()
+DML COMMANDS-UPDATE,DELETE-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-4.txt)
