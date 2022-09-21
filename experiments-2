@@ -1,0 +1,32 @@
+# DBMS_192111375_CSA0516
+mysql> alter table bhargav add primary key(regno);
+Query OK, 0 rows affected (0.32 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc bhargav;
++---------+----------+------+-----+---------+-------+
+| Field   | Type     | Null | Key | Default | Extra |
++---------+----------+------+-----+---------+-------+
+| regno   | int(11)  | NO   | PRI | 0       |       |
+| name    | char(10) | YES  |     | NULL    |       |
+| marks   | int(10)  | YES  |     | NULL    |       |
+| subject | char(10) | YES  |     | NULL    |       |
+| gender  | char(5)  | YES  |     | NULL    |       |
++---------+----------+------+-----+---------+-------+
+5 rows in set (0.12 sec)
+
+mysql> alter table bhargav add unique key(subject);
+Query OK, 0 rows affected (0.20 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc bhargav;
++---------+----------+------+-----+---------+-------+
+| Field   | Type     | Null | Key | Default | Extra |
++---------+----------+------+-----+---------+-------+
+| regno   | int(11)  | NO   | PRI | 0       |       |
+| name    | char(10) | YES  |     | NULL    |       |
+| marks   | int(10)  | YES  |     | NULL    |       |
+| subject | char(10) | YES  | UNI | NULL    |       |
+| gender  | char(5)  | YES  |     | NULL    |       |
++---------+----------+------+-----+---------+-------+
+5 rows in set (0.04 sec)
