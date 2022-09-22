@@ -19,3 +19,5 @@ CASE SCENARIO SQL QUERIES IMPLEMENTATION FOR BOOK PUBLISHING COMPANY-(https://gi
 SUBQUERY&CORRELATED QUERY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-8.txt)
 ## EXPERIMENT-9
 JOINS-EQUIJOIN,INNERJOIN,OUTERJOIN-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-9.txt)
+## EXPERIMENT-10
+VIEW,INDEX,SEQUENCE-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-10.txt)
