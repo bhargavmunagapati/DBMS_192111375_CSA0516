@@ -11,3 +11,5 @@ DML COMMANDS-UPDATE,DELETE-(https://github.com/bhargavmunagapati/DBMS_192111375_
 SELECT WITH VARIOUS CLAUSE-WHERE,PATTERN MATCHING-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-5.txt)
 ## EXPERIMENT-6
 SELECT WITH VARIOUS CLAUSE-BETWEEN,IN,AGGREGATE FUNCTION-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-6.txt)
+## EXPERIMENT-7
+SELECT WITH VARIOUS CLAUSE-GROUP BY,HAVING,ORDER BY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-7.txt)
