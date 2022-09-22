@@ -1,0 +1,108 @@
+
+mysql> use bookpublishing;
+Database changed
+mysql> create table bookpublishing(bookno int(40),bookname char(30),author char(20));
+Query OK, 0 rows affected (0.86 sec)
+
+mysql> desc bookpublishing;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| bookno   | int(40)  | YES  |     | NULL    |       |
+| bookname | char(30) | YES  |     | NULL    |       |
+| author   | char(20) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+3 rows in set (0.35 sec)
+
+mysql> create table customers (customername char(20),mobileno int(12),bookprice int(10));
+Query OK, 0 rows affected (0.12 sec)
+
+mysql> desc customers;
++--------------+----------+------+-----+---------+-------+
+| Field        | Type     | Null | Key | Default | Extra |
++--------------+----------+------+-----+---------+-------+
+| customername | char(20) | YES  |     | NULL    |       |
+| mobileno     | int(12)  | YES  |     | NULL    |       |
+| bookprice    | int(10)  | YES  |     | NULL    |       |
++--------------+----------+------+-----+---------+-------+
+3 rows in set (0.06 sec)
+
+mysql> insert into bookpublishing values(111,'pogo','siddu'),(222,'kushi','afroz');
+Query OK, 2 rows affected (0.15 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> select * from bookpublishing;
++--------+----------+--------+
+| bookno | bookname | author |
++--------+----------+--------+
+|    111 | pogo     | siddu  |
+|    222 | kushi    | afroz  |
++--------+----------+--------+
+2 rows in set (0.00 sec)
+
+mysql> insert into customers values('ram',337836763,500),('raj',546542472,200);
+Query OK, 2 rows affected (0.04 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> select * from customers;
++--------------+-----------+-----------+
+| customername | mobileno  | bookprice |
++--------------+-----------+-----------+
+| ram          | 337836763 |       500 |
+| raj          | 546542472 |       200 |
++--------------+-----------+-----------+
+2 rows in set (0.00 sec)
+
+mysql> alter table bookpublishing add (bookcost int(20));
+Query OK, 2 rows affected (0.39 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> select * from bookpublishing;
++--------+----------+--------+----------+
+| bookno | bookname | author | bookcost |
++--------+----------+--------+----------+
+|    111 | pogo     | siddu  |     NULL |
+|    222 | kushi    | afroz  |     NULL |
++--------+----------+--------+----------+
+2 rows in set (0.05 sec)
+
+mysql> update bookpublishing set bookcost=399 where bookname='pogo';
+Query OK, 1 row affected (0.08 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from bookpublishing;
++--------+----------+--------+----------+
+| bookno | bookname | author | bookcost |
++--------+----------+--------+----------+
+|    111 | pogo     | siddu  |      399 |
+|    222 | kushi    | afroz  |     NULL |
++--------+----------+--------+----------+
+2 rows in set (0.00 sec)
+
+mysql> select * from customers ORDER BY customername;
++--------------+-----------+-----------+
+| customername | mobileno  | bookprice |
++--------------+-----------+-----------+
+| raj          | 546542472 |       200 |
+| ram          | 337836763 |       500 |
++--------------+-----------+-----------+
+2 rows in set (0.04 sec)
+
+mysql> select * from bookpublishing HAVING bookcost<400;
++--------+----------+--------+----------+
+| bookno | bookname | author | bookcost |
++--------+----------+--------+----------+
+|    111 | pogo     | siddu  |      399 |
++--------+----------+--------+----------+
+1 row in set (0.00 sec)
+
+mysql> delete from bookpublishing where bookcost;
+Query OK, 1 row affected (0.07 sec)
+
+mysql> select * from bookpublishing;
++--------+----------+--------+----------+
+| bookno | bookname | author | bookcost |
++--------+----------+--------+----------+
+|    222 | kushi    | afroz  |     NULL |
++--------+----------+--------+----------+
+1 row in set (0.00 sec)
