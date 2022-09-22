@@ -17,3 +17,5 @@ SELECT WITH VARIOUS CLAUSE-GROUP BY,HAVING,ORDER BY-(https://github.com/bhargavm
 CASE SCENARIO SQL QUERIES IMPLEMENTATION FOR BOOK PUBLISHING COMPANY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-22.txt)
 ## EXPERIMENT-8
 SUBQUERY&CORRELATED QUERY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-8.txt)
+## EXPERIMENT-9
+JOINS-EQUIJOIN,INNERJOIN,OUTERJOIN-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-9.txt)
