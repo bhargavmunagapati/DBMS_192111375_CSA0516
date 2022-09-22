@@ -9,4 +9,5 @@ DML COMMANDS-INSERT,SELECT-(https://github.com/bhargavmunagapati/DBMS_192111375_
 DML COMMANDS-UPDATE,DELETE-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-4.txt)
 ## EXPERIMENT-5
 SELECT WITH VARIOUS CLAUSE-WHERE,PATTERN MATCHING-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-5.txt)
-
+## EXPERIMENT-6
+SELECT WITH VARIOUS CLAUSE-BETWEEN,IN,AGGREGATE FUNCTION-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-6.txt)
