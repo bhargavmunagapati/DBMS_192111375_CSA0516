@@ -15,3 +15,5 @@ SELECT WITH VARIOUS CLAUSE-BETWEEN,IN,AGGREGATE FUNCTION-(https://github.com/bha
 SELECT WITH VARIOUS CLAUSE-GROUP BY,HAVING,ORDER BY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-7.txt)
 ## EXPERIMENT-22
 CASE SCENARIO SQL QUERIES IMPLEMENTATION FOR BOOK PUBLISHING COMPANY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-22.txt)
+## EXPERIMENT-8
+SUBQUERY&CORRELATED QUERY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-8.txt)
