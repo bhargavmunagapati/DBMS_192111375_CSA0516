@@ -21,3 +21,5 @@ SUBQUERY&CORRELATED QUERY-(https://github.com/bhargavmunagapati/DBMS_192111375_C
 JOINS-EQUIJOIN,INNERJOIN,OUTERJOIN-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-9.txt)
 ## EXPERIMENT-10
 VIEW,INDEX,SEQUENCE-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-10.txt)
+## EXPERIMENT-13
+TCL COMMANDS-COMMIT,ROLLBACK,SAVEPOINT-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-13.txt)
