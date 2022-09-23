@@ -33,3 +33,5 @@ DATABASE CONNECTIVITY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA05
 CASE SCENARIO-(GENERAL HOSPITAL)-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-23.txt)
 ## EXPERIMENT-24
 CASE SCENARIO SQL QUERIES IMPLEMENTATION FOR CAR RENTAL COMPANY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiment-24.txt)
+## EXPERIMENT-12
+SIMPLE PROGRAMMING EXERCISES USING REPEAT,WHILE-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiment-12.txt)
