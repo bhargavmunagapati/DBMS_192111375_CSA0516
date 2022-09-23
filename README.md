@@ -37,3 +37,5 @@ CASE SCENARIO SQL QUERIES IMPLEMENTATION FOR CAR RENTAL COMPANY-(https://github.
 SIMPLE PROGRAMMING EXERCISES USING REPEAT,WHILE-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiment-12.txt)
 ## EXPERIMENT-19
 DATABASE CONNECTIVITY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-19.txt)
+##EXPERIMENT-14
+DCL COMMANDS-GRANT,REVOKE-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-14.txt)
