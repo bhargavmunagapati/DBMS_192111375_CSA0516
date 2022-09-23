@@ -31,3 +31,5 @@ DATABASE CONNECTIVITY-USING JAVA& MS ACCESS-(https://github.com/bhargavmunagapat
 DATABASE CONNECTIVITY-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-20.txt)
 ## EXPERIMENT-23
 CASE SCENARIO-(GENERAL HOSPITAL)-(https://github.com/bhargavmunagapati/DBMS_192111375_CSA0516/blob/main/experiments-23.txt)
+## EXPERIMENT-24
+CASE SCENARIO SQL QUERIES IMPLEMENTATION FOR CAR RENTAL COMPANY-()
